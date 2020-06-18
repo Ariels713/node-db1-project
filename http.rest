@@ -1,21 +1,21 @@
 //GET all request
 
 ###
-GET http://localhost:5000/
+GET http://localhost:5000/async
 
 //GET by :id
 
 ###
-GET http://localhost:5000/1
+GET http://localhost:5000/async/1
 
 //POST Request
 
 ###
-POST http://localhost:5000/
+POST http://localhost:5000/async
 Content-Type: application/json
 
 {
-    "name": "account-100",
+    "name": "account-21",
     "budget": 40000
 }
 
